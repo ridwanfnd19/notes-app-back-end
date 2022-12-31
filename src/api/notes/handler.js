@@ -23,7 +23,7 @@ class NotesHandler {
                 status: 'success',
                 message: 'Catatan berhasil ditambahkan',
                 data: {
-                noteId,
+                    noteId,
                 },
             });
             response.code(201);
@@ -66,7 +66,7 @@ class NotesHandler {
             return {
                 status: 'success',
                 data: {
-                note,
+                  note,
                 },
             };    
         } catch (error) {
